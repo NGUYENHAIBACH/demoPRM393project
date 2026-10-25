@@ -1,0 +1,11 @@
+@model List<BoardingHouseVm>
+@{ ViewData["Title"] = "Boarding houses"; }
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h2>Boarding houses</h2>
+  @if (User.IsInRole("Landlord")) { <a asp-action="Create" class="btn btn-primary">+ New</a> }
+</div>
+@if (TempData["Message"] is string msg) { <div class="alert alert-success">@msg</div> }
+@if (!Model.Any()) { <div class="alert alert-info">No boarding houses yet.</div> }
+<div class="row row-cols-1 row-cols-md-3 g-3">
+  @foreach (var h in Model) { <div class="col"><partial name="_BoardingHouseCard" model="h" /></div> }
+</div>

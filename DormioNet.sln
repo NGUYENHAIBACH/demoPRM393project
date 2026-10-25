@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{728665D0-DA94-4CF4-BE89-33F9B58B47A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dormio.Api", "src\Dormio.Api\Dormio.Api.csproj", "{D3D292EA-A53F-4394-A184-B261528E6F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dormio.Web", "src\Dormio.Web\Dormio.Web.csproj", "{CAC52586-75D8-4C59-A4F7-656B4DB677C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3D292EA-A53F-4394-A184-B261528E6F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D292EA-A53F-4394-A184-B261528E6F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D292EA-A53F-4394-A184-B261528E6F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D292EA-A53F-4394-A184-B261528E6F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC52586-75D8-4C59-A4F7-656B4DB677C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC52586-75D8-4C59-A4F7-656B4DB677C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC52586-75D8-4C59-A4F7-656B4DB677C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC52586-75D8-4C59-A4F7-656B4DB677C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3D292EA-A53F-4394-A184-B261528E6F17} = {728665D0-DA94-4CF4-BE89-33F9B58B47A1}
+		{CAC52586-75D8-4C59-A4F7-656B4DB677C4} = {728665D0-DA94-4CF4-BE89-33F9B58B47A1}
+	EndGlobalSection
+EndGlobal

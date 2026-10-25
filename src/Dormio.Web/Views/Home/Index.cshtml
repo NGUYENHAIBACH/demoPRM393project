@@ -1,0 +1,13 @@
+@{ ViewData["Title"] = "Home"; }
+<div class="text-center py-5">
+  <h1 class="display-5">Dormio</h1>
+  <p class="lead">Boarding house management and rental platform (PRN232 project).</p>
+  @if (User.Identity?.IsAuthenticated == true)
+  {
+    <a asp-controller="BoardingHouses" asp-action="Index" class="btn btn-primary">My boarding houses</a>
+  }
+  else
+  {
+    <a asp-controller="Account" asp-action="Login" class="btn btn-primary">Sign in</a>
+  }
+</div>
